@@ -35,7 +35,9 @@ a:hover
 	color: #4F0A47;
 }
 
-#logo:hover
-{
-	transition: all 500ms;
+#logo {
+  transition: transform .7s ease-in-out;
+}
+#logo:hover {
+  transform: rotate(360deg);
 }
