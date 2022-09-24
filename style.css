@@ -34,3 +34,8 @@ a:hover
 	transition: all 500ms;
 	color: #4F0A47;
 }
+
+#logo:hover
+{
+	transition: all 500ms;
+}
