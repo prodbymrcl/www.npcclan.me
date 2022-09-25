@@ -35,6 +35,7 @@ a:hover
 	color: #4F0A47;
 }
 
+<<<<<<< HEAD
 
 .rectangle
 {
@@ -60,3 +61,11 @@ a:hover
 }
 
 
+=======
+#logo {
+  transition: transform .7s ease-in-out;
+}
+#logo:hover {
+  transform: rotate(360deg);
+}
+>>>>>>> 2cbf505549d88afbd12c7d2bfd104bc3a595292f
