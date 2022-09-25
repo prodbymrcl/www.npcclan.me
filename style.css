@@ -6,22 +6,27 @@
 
 body
 {
+	background: url(porun.png);
+	background-size: cover;
     background-color: #101010;
 	font-family: "Roboto", sans-serif;
 	font-size: 20px;
 	color: purple;
 }
 
+
 #naglowek
 {
 	font-size: 100px;
+	margin-left: -95px;
 }
 
 .link {
 	display: table;
-	margin: 0px auto 0px auto;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 	transition: all 500ms;
+	margin-top:20px;
+	margin-left: 20px;
 }
 
 .link:hover {
@@ -50,23 +55,23 @@ a:hover
 	color: #ff00ff;
 }
 
-.rectangle
+.soundcloud
 {
-	height: 100px;
-	width: 500px;
-	background-color: purple;
-	position: relative;
-	top: -105px;
-	z-index: 1;
-	opacity: 0%;
+	float: right;
+	margin-top: -200px;
 }
-
 
 #logo 
 {
   animation: rotation 4s infinite linear;
   position: relative;
   z-index: 2;
+  float: left;
+  height: 70px;
+  width: 70px;
+  margin-top: 18px;
+  margin-left: 18px;
+  
 }
 @keyframes rotation {
   from {
@@ -76,3 +81,13 @@ a:hover
     transform: rotate(359deg);
   }
 }
+
+#logo:hover
+{
+	animation-play-state: paused;
+}
+
+
+
+
+
