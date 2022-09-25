@@ -63,7 +63,7 @@ a:hover
 
 =======
 #logo {
-  transition: transform .7s ease-in-out;
+  transition: transform 3s ease-in-out;
 }
 #logo:hover {
   transform: rotate(360deg);
