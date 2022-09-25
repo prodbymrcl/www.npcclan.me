@@ -15,13 +15,28 @@ body
 #naglowek
 {
 	font-size: 100px;
-	text-decoration: none;
 }
+
+.link {
+	display: table;
+	margin: 0px auto 0px auto;
+	margin-bottom: 30px;
+	transition: all 500ms;
+}
+
+.link:hover {
+	background-color: black;
+	transform: skew(-5deg, -5deg);
+	transition: all 500ms;
+	color: #ff00ff;
+}
+
 
 a:link
 {
 	color: purple;
 	transition: all 1000ms;
+	text-decoration: none;
 }
 
 a:visited
@@ -32,10 +47,8 @@ a:visited
 a:hover
 {
 	transition: all 500ms;
-	color: #4F0A47;
+	color: #ff00ff;
 }
-
-<<<<<<< HEAD
 
 .rectangle
 {
@@ -51,21 +64,19 @@ a:hover
 
 #logo 
 {
-  transition: transform 3s ease-in-out;
+  animation: rotation 4s infinite linear;
   position: relative;
   z-index: 2;
 }
-#logo:hover {
-  transform: rotate(360deg);
-  rectangle-opacity: 100%;
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 
-=======
-#logo {
-  transition: transform .7s ease-in-out;
-}
-#logo:hover {
-  transform: rotate(360deg);
-}
->>>>>>> 2cbf505549d88afbd12c7d2bfd104bc3a595292f
+
+
