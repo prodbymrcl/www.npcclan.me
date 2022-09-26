@@ -8,7 +8,7 @@ body
 {
 	background: url(porun.png);
 	background-size: cover;
-   	background-color: #000000;
+    background-color: #101010;
 	font-family: "Roboto", sans-serif;
 	font-size: 20px;
 	color: purple;
@@ -19,7 +19,33 @@ body
 {
 	font-size: 100px;
 	margin-left: -95px;
+	font-family: 'UnifrakturMaguntia', cursive;
 }
+
+#body
+{
+	height: 700px;
+	width: 600px;
+	background-color: #1a001a;
+	margin-top: -100px;
+}
+
+#pasek
+{
+	color: black;
+	height: 70px;
+	width: 600px;
+	background-color: purple;
+	padding-bottom: 60px;
+	margin-top: -80px;
+}
+
+#minusik
+{
+	float: right;
+	margin-right: 10px;
+}
+
 
 .link {
 	display: table;
@@ -27,6 +53,7 @@ body
 	transition: all 500ms;
 	margin-top:20px;
 	margin-left: 20px;
+	font-family: 'Orbitron', sans-serif;
 }
 
 .link:hover {
@@ -58,7 +85,13 @@ a:hover
 .soundcloud
 {
 	float: right;
-	margin-top: -200px;
+	margin-top: -800px;
+}
+
+.yt
+{
+	float:right;
+	margin-top: -620px;
 }
 
 #logo 
