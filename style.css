@@ -8,7 +8,7 @@ body
 {
 	background: url(porun.png);
 	background-size: cover;
-    background-color: #101010;
+    	background-color: #101010;
 	font-family: "Roboto", sans-serif;
 	font-size: 20px;
 	color: purple;
@@ -38,6 +38,13 @@ body
 	background-color: purple;
 	padding-bottom: 60px;
 	margin-top: -80px;
+	transition: all 1000ms;
+}
+
+#pasek:hover
+{
+	transition: all 1000ms;
+	background-color: #ff00ff;
 }
 
 #minusik
