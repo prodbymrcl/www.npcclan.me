@@ -43,7 +43,7 @@ body
 
 #pasek:hover
 {
-	transition: all 1000ms;
+	transition: all 500ms;
 	background-color: #ff00ff;
 }
 
