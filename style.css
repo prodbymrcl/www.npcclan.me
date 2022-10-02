@@ -8,7 +8,7 @@ body
 {
 	background: url(porun.png);
 	background-size: cover;
-    	background-color: #101010;
+    background-color: #101010;
 	font-family: "Roboto", sans-serif;
 	font-size: 20px;
 	color: purple;
@@ -24,7 +24,7 @@ body
 
 #body
 {
-	height: 700px;
+	height: 650px;
 	width: 600px;
 	background-color: #1a001a;
 	margin-top: -100px;
@@ -53,6 +53,19 @@ body
 	margin-right: 10px;
 }
 
+#footer
+{
+	margin-top: 43px;
+	font-size: 12px;
+	float: right;
+	transition: all 500ms;
+}
+
+#footer:hover
+{
+	color: #ff00ff;
+	transition: all 500ms;
+}
 
 .link {
 	display: table;
