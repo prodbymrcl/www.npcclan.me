@@ -1,2 +1,1 @@
-# kfnpc.github.io
-npc clan
+npc clan B)
